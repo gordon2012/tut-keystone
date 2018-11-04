@@ -2,7 +2,7 @@ var keystone = require('keystone');
 
 keystone.init({
   name: 'Keystone CMS',
-  static: [],
+  static: ['./server/public/js/', './server/public/img/'],
   'auto update': true,
   mongo: 'mongodb://localhost/tut-keystone',
   auth: true,
@@ -12,6 +12,6 @@ keystone.init({
 
 keystone.import('./server/models');
 
-// routes
+keystone.set('routes', require('./server/routes'));
 
 keystone.start();
