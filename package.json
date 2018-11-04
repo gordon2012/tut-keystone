@@ -1,0 +1,23 @@
+{
+  "name": "tut-keystone",
+  "version": "1.0.0",
+  "description": "- [ ] https://itnext.io/building-a-node-cms-with-keystonejs-mongo-db-react-and-redux-part-i-ae5958496df2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordon2012/tut-keystone.git"
+  },
+  "author": "Gordon Doskas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gordon2012/tut-keystone/issues"
+  },
+  "homepage": "https://github.com/gordon2012/tut-keystone#readme",
+  "dependencies": {
+    "keystone": "^4.0.0",
+    "underscore": "^1.9.1"
+  }
+}
