@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/gordon2012/tut-keystone#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "keystone": "^4.0.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "underscore": "^1.9.1"
   },
   "devDependencies": {

@@ -1,4 +1,13 @@
+var keystone = require('keystone');
+var importRoutes = keystone.importer(__dirname);
+
+var routes = {
+  api: importRoutes('./api')
+};
+
 exports = module.exports = function(app) {
+  app.get('/api/recipe/', keystone.middleware.api, routes.api.recipe.list);
+
   app.get('/index.html', function(req, res) {
     function renderFullPage() {
       return `
